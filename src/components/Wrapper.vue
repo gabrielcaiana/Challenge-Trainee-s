@@ -6,7 +6,6 @@
         Run an organization where members get rewarded for their contributions
         with fractional ownership.
       </p>
-      <!-- <button>Request early access</button> -->
       <Button estilo="button-default" label="Request early access"/>
     </div>
     <div class="ilustration-wrapper">
