@@ -79,7 +79,7 @@
             <span>4 commits</span>
             <span class="stars">4.8</span>
           </div>
-          <Button estilo="button-secundary" width="small" label="View profile"/>
+          <Button estilo="button-secundary" widthButton="192" label="View profile"/>
         </div>
       </div>
     </div>

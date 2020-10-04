@@ -1,10 +1,21 @@
 <template>
-  <button :class="[estilo, width]">{{ label }}</button>
+  <button
+    :class="estilo"
+    :style="{ width: widthButton + 'px', borderRadius: radius + 'px' }"
+  >
+    {{ label }}
+  </button>
 </template>
 
 <script>
 export default {
-  props: ["estilo", "label", "width"],
+  props: ["estilo", "label", "widthButton", "radius"],
+  data() {
+    return {
+      width: this.widthButton,
+      borderRadius: this.radius,
+    };
+  },
 };
 </script>
 
@@ -19,6 +30,7 @@ export default {
   transition: 0.3s;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 600;
 
   &:hover {
     background-color: map-get($theme-colors, "green-hover");
@@ -35,12 +47,10 @@ export default {
   transition: 0.3s;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 600;
 
   &:hover {
     background-color: map-get($theme-colors, "green");
   }
-}
-.small {
-  width: 190px;
 }
 </style>
