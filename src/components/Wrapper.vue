@@ -25,12 +25,12 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
-  background-color: map-get($theme-colors, "white");
   display: flex;
   padding: 16px 32px;
   justify-content: space-between;
   align-items: center;
   max-height: 600px;
+  background: map-get($theme-colors, "background" );
 
   .content-wrapper {
     h1 {

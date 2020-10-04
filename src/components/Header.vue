@@ -23,6 +23,7 @@ export default {
   padding: 16px 32px;
   justify-content: space-between;
   align-items: center;
+  background: map-get($theme-colors, "background" );
 
   ul {
    display: flex;

@@ -46,7 +46,8 @@ export default {};
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 150px 0;
+  padding: 150px 0;
+  background: map-get($theme-colors, "background" );
 
   h2 {
     font-size: 48px;
@@ -74,7 +75,7 @@ export default {};
 .card {
       width: 30%;
       height: 340px;
-      margin: 0 12px;
+      margin: 0 16px;
       background-color: map-get($theme-colors, "white");
       box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
