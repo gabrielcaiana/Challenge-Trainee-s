@@ -1,11 +1,11 @@
 <template>
-  <button :class="estilo"> {{ label }} </button>
+  <button :class="estilo">{{ label }}</button>
 </template>
 
 <script>
 export default {
- props: ["estilo", "label"]
-}
+  props: ["estilo", "label"],
+};
 </script>
 
 <style lang="scss" scoped>
@@ -22,6 +22,22 @@ export default {
 
   &:hover {
     background-color: map-get($theme-colors, "green-hover");
+  }
+}
+
+.button-secundary {
+  width: 400px;
+  height: 46px;
+  border-radius: 18px;
+  border: none;
+  background-color: map-get($theme-colors, "black");
+  color: map-get($theme-colors, "white");
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: map-get($theme-colors, "green");
   }
 }
 </style>
