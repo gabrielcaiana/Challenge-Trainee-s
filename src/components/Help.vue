@@ -43,21 +43,23 @@
         </div>
       </div>
     </div>
-    <Button 
-      estilo="button-secundary" 
+    <Button
+      estilo="button-secundary"
       widthButton="146"
       radius="8"
       label="View more"
     />
+
+    <img class="bg-help" src="@/assets/images/bg.svg" alt="ilustração" />
   </div>
 </template>
 
 <script>
-import Button from"@/components/commons/Button"
+import Button from "@/components/commons/Button";
 export default {
   components: {
-    Button
-  }
+    Button,
+  },
 };
 </script>
 
@@ -67,7 +69,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 150px 0;
+  padding: 150px 0 60px 0 ;
   background: map-get($theme-colors, "background");
 
   h4 {
@@ -90,6 +92,11 @@ export default {
     justify-content: center;
     margin: 42px 0;
     width: 100%;
+  }
+
+  .bg-help {
+    max-width: 100%;
+    margin-top: 42px;
   }
 }
 

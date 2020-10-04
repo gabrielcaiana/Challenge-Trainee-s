@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: map-get($theme-colors, "background" );
 
   .content {
     max-width: 1370px;

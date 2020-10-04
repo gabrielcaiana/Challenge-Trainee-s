@@ -30,7 +30,7 @@ export default {
   transition: 0.3s;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 600;
+  
 
   &:hover {
     background-color: map-get($theme-colors, "green-hover");
