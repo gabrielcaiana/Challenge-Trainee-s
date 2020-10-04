@@ -1,10 +1,10 @@
 <template>
-  <button :class="estilo">{{ label }}</button>
+  <button :class="[estilo, width]">{{ label }}</button>
 </template>
 
 <script>
 export default {
-  props: ["estilo", "label"],
+  props: ["estilo", "label", "width"],
 };
 </script>
 
@@ -39,5 +39,8 @@ export default {
   &:hover {
     background-color: map-get($theme-colors, "green");
   }
+}
+.small {
+  width: 190px;
 }
 </style>

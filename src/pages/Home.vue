@@ -5,6 +5,7 @@
     <Work/>
     <Kickstart/>
     <Onboard/>
+    <Engage/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Wrapper from "@/components/Wrapper"
 import Work from "@/components/Work"
 import Kickstart from "@/components/Kickstart"
 import Onboard from "@/components/Onboard"
+import Engage from "@/components/Engage"
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Wrapper,
     Work,
     Kickstart,
-    Onboard
+    Onboard,
+    Engage
   }
 };
 </script>
