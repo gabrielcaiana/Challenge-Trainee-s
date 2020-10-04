@@ -40,6 +40,6 @@ export default {
        color: map-get($theme-colors, "green");
       }
      }
-  }
+   }
  }
 </style>
