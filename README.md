@@ -1,4 +1,4 @@
-# Bolierplate Vue.JS
+# Challenge HTML/CSS
 
 ## Project setup
 ```
