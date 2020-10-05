@@ -1,5 +1,7 @@
 # Challenge HTML/CSS
 
+![](https://github.com/gabrielcaiana/Challenge-Trainee-s/blob/master/src/assets/images/thumb.png)
+
 ## Project setup
 ```
 npm install
