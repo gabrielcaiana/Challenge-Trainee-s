@@ -6,7 +6,7 @@
         Run an organization where members get rewarded for their contributions
         with fractional ownership.
       </p>
-      <Button estilo="button-default" label="Request early access"/>
+      <Button v-scroll-to="'#start'" estilo="button-default" label="Request early access"/>
     </div>
     <div class="ilustration-wrapper">
       <img src="@/assets/images/ilustration-header.svg" alt="ilustração" />
