@@ -112,6 +112,11 @@ export default {
   justify-content: center;
   padding: 16px;
   box-sizing: border-box;
+  transition: .3s;
+
+  &:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
 
   img {
     width: 64px;

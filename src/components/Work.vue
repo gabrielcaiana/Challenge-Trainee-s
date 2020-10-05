@@ -47,7 +47,7 @@ export default {};
   justify-content: center;
   align-items: center;
   padding: 150px 0;
-  background: map-get($theme-colors, "background" );
+  background: map-get($theme-colors, "background");
 
   h2 {
     font-size: 48px;
@@ -73,34 +73,39 @@ export default {};
 }
 
 .card {
-      width: 30%;
-      height: 340px;
-      margin: 0 16px;
-      background-color: map-get($theme-colors, "white");
-      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 16px;
-      box-sizing: border-box;
+  width: 30%;
+  height: 340px;
+  margin: 0 16px;
+  background-color: map-get($theme-colors, "white");
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  transition: .3s;
 
-      img {
-       width: 64px;
-       margin-bottom: 16px;
-      }
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
 
-      span {
-       font-size: 20px;
-       font-weight: 600;
-       color: map-get($theme-colors, "black");
-      }
+  img {
+    width: 64px;
+    margin-bottom: 16px;
+  }
 
-      p {
-       font-size: 18px;
-       line-height: 28px;
-       color: map-get($theme-colors, "black");
-      }
-    }
+  span {
+    font-size: 20px;
+    font-weight: 600;
+    color: map-get($theme-colors, "black");
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    color: map-get($theme-colors, "black");
+  }
+}
 </style>

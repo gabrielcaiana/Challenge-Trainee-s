@@ -12,7 +12,7 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-npm run build
+npx vue-cli-service build
 ```
 
 ### Lints and fixes files
