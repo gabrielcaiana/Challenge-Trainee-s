@@ -1,5 +1,5 @@
 <template>
-  <div class="kickstart">
+  <div class="kickstart" id="kickstart">
     <div class="content">
       <img src="@/assets/icons/Icon4.svg" alt="icone" />
       <h3>kickstart an organization with your co-founders</h3>

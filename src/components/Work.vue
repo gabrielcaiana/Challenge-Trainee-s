@@ -1,5 +1,5 @@
 <template>
-  <div class="work">
+  <div class="work" id="work">
     <h2>Reimagining what it means to work</h2>
     <p>
       Teams and communities using Open Enterprise fundamentally unlock a reality

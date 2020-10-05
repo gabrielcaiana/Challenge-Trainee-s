@@ -2,10 +2,10 @@
   <header>
    <img src="@/assets/images/logo.svg" alt="logo">
    <ul>
-    <li><a href="#">Why Open Enterprise</a></li>
-    <li><a href="#">Features</a></li>
-    <li><a href="#">Contribute</a></li>
-    <li><a href="#">Request early access</a></li>
+    <li><a href="#" v-scroll-to="'#work'">Why Open Enterprise</a></li>
+    <li><a href="#" v-scroll-to="'#kickstart'">Features</a></li>
+    <li><a href="#" v-scroll-to="'#help'">Contribute</a></li>
+    <li><a href="#" v-scroll-to="'#start'">Request early access</a></li>
    </ul>
   </header>
 </template>

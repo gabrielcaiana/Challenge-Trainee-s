@@ -1,5 +1,5 @@
 <template>
-  <div class="start">
+  <div class="start" id="start">
     <div class="content-start">
       <h5>Start an Open Enterprise</h5>
       <p>

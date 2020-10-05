@@ -1,5 +1,5 @@
 <template>
-  <div class="help">
+  <div class="help" id="help">
     <h4>Help us improve Open Enterprise</h4>
     <p>
       As an Open Enterprise ourselves, we are actively looking for new talent to
